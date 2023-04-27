@@ -1,0 +1,148 @@
+{
+    "os": "Linux-5.10.16.3-microsoft-standard-WSL2-x86_64-with-glibc2.31",
+    "python": "3.9.12",
+    "heartbeatAt": "2023-04-13T09:01:17.018218",
+    "startedAt": "2023-04-13T09:01:16.918220",
+    "docker": null,
+    "cuda": null,
+    "args": [
+        "--pretrain",
+        "gpt2",
+        "--model",
+        "gpt2",
+        "--strategy",
+        "colossalai_zero2",
+        "--log_interval",
+        "10",
+        "--save_path",
+        "/model/gpt2",
+        "--dataset",
+        "/app/InstructionWild/instinwild_en.json",
+        "--batch_size",
+        "4",
+        "--accimulation_steps",
+        "8",
+        "--lr",
+        "2e-5",
+        "--max_datasets_size",
+        "512",
+        "--max_epochs",
+        "1"
+    ],
+    "state": "running",
+    "program": "/workspace/ColossalAI/applications/Chat/examples/train_sft.py",
+    "codePath": "applications/Chat/examples/train_sft.py",
+    "git": {
+        "remote": "https://github.com/hpcaitech/ColossalAI.git",
+        "commit": "7182ac2a04f6ddcade369f67bb78fe961982cde5"
+    },
+    "email": null,
+    "root": "/workspace/ColossalAI",
+    "host": "68f9b8e6a902",
+    "username": "root",
+    "executable": "/opt/conda/bin/python",
+    "cpu_count": 8,
+    "cpu_count_logical": 16,
+    "cpu_freq": {
+        "current": 3686.3980000000006,
+        "min": 0.0,
+        "max": 0.0
+    },
+    "cpu_freq_per_core": [
+        {
+            "current": 3686.398,
+            "min": 0.0,
+            "max": 0.0
+        },
+        {
+            "current": 3686.398,
+            "min": 0.0,
+            "max": 0.0
+        },
+        {
+            "current": 3686.398,
+            "min": 0.0,
+            "max": 0.0
+        },
+        {
+            "current": 3686.398,
+            "min": 0.0,
+            "max": 0.0
+        },
+        {
+            "current": 3686.398,
+            "min": 0.0,
+            "max": 0.0
+        },
+        {
+            "current": 3686.398,
+            "min": 0.0,
+            "max": 0.0
+        },
+        {
+            "current": 3686.398,
+            "min": 0.0,
+            "max": 0.0
+        },
+        {
+            "current": 3686.398,
+            "min": 0.0,
+            "max": 0.0
+        },
+        {
+            "current": 3686.398,
+            "min": 0.0,
+            "max": 0.0
+        },
+        {
+            "current": 3686.398,
+            "min": 0.0,
+            "max": 0.0
+        },
+        {
+            "current": 3686.398,
+            "min": 0.0,
+            "max": 0.0
+        },
+        {
+            "current": 3686.398,
+            "min": 0.0,
+            "max": 0.0
+        },
+        {
+            "current": 3686.398,
+            "min": 0.0,
+            "max": 0.0
+        },
+        {
+            "current": 3686.398,
+            "min": 0.0,
+            "max": 0.0
+        },
+        {
+            "current": 3686.398,
+            "min": 0.0,
+            "max": 0.0
+        },
+        {
+            "current": 3686.398,
+            "min": 0.0,
+            "max": 0.0
+        }
+    ],
+    "disk": {
+        "total": 250.98248672485352,
+        "used": 93.99109649658203
+    },
+    "gpu": "NVIDIA GeForce RTX 3060",
+    "gpu_count": 1,
+    "gpu_devices": [
+        {
+            "name": "NVIDIA GeForce RTX 3060",
+            "memory_total": 12884901888
+        }
+    ],
+    "memory": {
+        "total": 23.346542358398438
+    }
+}
